@@ -1,0 +1,38 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #212121;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+}
