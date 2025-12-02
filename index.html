@@ -1,42 +1,132 @@
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WebStudio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WebStudio</title>
 </head>
+
 <body class="body">
 
-  <header class="header">
-    <nav class="header-nav">
-      <a class="header-logo" href="/">Web<span class="header-logo--accent">Studio</span></a>
+<header class="header">
+    <div class="header-container">
 
-      <ul class="header-menu">
-        <li class="header-menu-item">
-          <a class="header-menu-link" href="index.html">Студія</a>
-        </li>
-        <li class="header-menu-item">
-          <a class="header-menu-link" href="portfolio.html">Портфоліо</a>
-        </li>
-        <li class="header-menu-item">
-          <a class="header-menu-link" href="#">Контакти</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <a href="./index.html" class="header-logo">
+            <span class="header-logo-accent">Web</span>Studio
+        </a>
 
-  <main class="main">
-    <section class="hero">
-      <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-      <button class="hero-button">Замовити послугу</button>
-    </section>
-  </main>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Студія</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="./portfolio.html">Портфоліо</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="#">Контакти</a></li>
+            </ul>
+        </nav>
 
-  <footer class="footer">
-    <a class="footer-logo" href="/">WebStudio</a>
-    <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
-  </footer>
+        <ul class="header-contacts">
+            <li class="header-contacts-item"><a class="header-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-contacts-item"><a class="header-contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<main class="main">
+
+<section class="hero">
+    <div class="hero-container">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-btn">Замовити послугу</button>
+    </div>
+</section>
+
+
+<section class="features">
+    <div class="container">
+        <ul class="features-list">
+            <li class="features-item">
+                <h3 class="features-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="features-item-text">Lorem ipsum dolor sit amet...</p>
+            </li>
+
+            <li class="features-item">
+                <h3 class="features-item-title">Пунктуальність</h3>
+                <p class="features-item-text">Lorem ipsum dolor sit amet...</p>
+            </li>
+
+            <li class="features-item">
+                <h3 class="features-item-title">Планування</h3>
+                <p class="features-item-text">Lorem ipsum dolor sit amet...</p>
+            </li>
+
+            <li class="features-item">
+                <h3 class="features-item-title">Технології</h3>
+                <p class="features-item-text">Lorem ipsum dolor sit amet...</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<section class="team">
+    <div class="container">
+        <h2 class="team-title">Наша команда</h2>
+
+        <ul class="team-list">
+            <li class="team-item">
+                <img class="team-item-img" src="./images/team1.jpg" alt="Ігор Дем'яненко">
+                <h3 class="team-item-name">Ігор Дем'яненко</h3>
+                <p class="team-item-role">Product Designer</p>
+            </li>
+
+            <li class="team-item">
+                <img class="team-item-img" src="./images/team2.jpg" alt="Ольга Рєпіна">
+                <h3 class="team-item-name">Ольга Рєпіна</h3>
+                <p class="team-item-role">Frontend Developer</p>
+            </li>
+
+            <li class="team-item">
+                <img class="team-item-img" src="./images/team3.jpg" alt="Микола Тарасов">
+                <h3 class="team-item-name">Микола Тарасов</h3>
+                <p class="team-item-role">Marketing</p>
+            </li>
+
+            <li class="team-item">
+                <img class="team-item-img" src="./images/team4.jpg" alt="Михайло Єрмаков">
+                <h3 class="team-item-name">Михайло Єрмаков</h3>
+                <p class="team-item-role">UI Designer</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+</main>
+
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <a class="footer-logo" href="./index.html">
+            <span class="footer-logo-accent">Web</span>Studio
+        </a>
+
+        <address class="footer-address">
+            <p class="footer-address-location">м. Київ, пр-т Лесі Українки, 26</p>
+
+            <ul class="footer-contacts-list">
+                <li class="footer-contacts-item"><a class="footer-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-contacts-item"><a class="footer-contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
+    </div>
+</footer>
 
 </body>
 </html>
